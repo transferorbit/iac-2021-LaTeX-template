@@ -36,7 +36,7 @@
 \RequirePackage{etoolbox}
 \RequirePackage{alphalph}
 \RequirePackage{float}
-\RequirePackage{orcidlink}
+%\RequirePackage{orcidlink}
 
 \renewcommand{\headrulewidth}{0pt}
 
@@ -94,7 +94,7 @@
 \newcommand*{\IACdate}[1]{\def\iac@date{#1}}\IACdate{}
 
 
-\newcommand{\IACcopyrightA}[1]{\def\iac@copyright{Copyright \copyright\iac@paperyear\ by the International Astronautical Federation (IAF). All rights reserved.}}
+\newcommand{\IACcopyrightA}[1]{\def\iac@copyright{Copyright \copyright\iac@paperyear\ by the International Astronautical Federation \(IAF\). All rights reserved.}}
 \newcommand{\IACcopyrightB}[1]{\def\iac@copyright{Copyright \copyright\iac@paperyear\ by #1. Published by the IAF, with permission and released to the IAF to publish in all forms.}}
 \newcommand{\IACcopyrightC}[1]{\def\iac@copyright{#1}} 
 \newcommand\iac@makecopyright{{\iac@copyright}}
@@ -150,7 +150,8 @@
 \fancyhf{}
 
 % Header
-\chead{\footnotesize $73^\mathrm{rd}$ International Astronautical Congress (IAC), {\iac@location}, {\iac@date}.\\ \iac@makecopyright}
+\chead{\footnotesize International Astronautical Congress (IAC), {\iac@location}, {\iac@date}.\\ \iac@makecopyright}
+%\chead{\footnotesize 73^\textrm{rd} International Astronautical Congress (IAC), {\iac@location}, {\iac@date}.\\ \iac@makecopyright}
 
 % Footer
 \setlength{\footskip}{40pt}

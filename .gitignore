@@ -1,0 +1,6 @@
+# Ignore:
+# 
+# Files created by LaTeX typesetting
+*.aux
+*.log
+*.out
