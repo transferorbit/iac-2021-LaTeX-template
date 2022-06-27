@@ -38,7 +38,9 @@
 \RequirePackage{float}
 %\RequirePackage{orcidlink}
 \usepackage{color}
+\usepackage{xcolor}
 \usepackage{xkcdcolors}
+\usepackage[colorlinks=true]{hyperref}
 
 \renewcommand{\headrulewidth}{0pt}
 

@@ -41,45 +41,26 @@
 \maketitle
 \thispagestyle{fancy} % resets proper header/footer
 
-\textcolor{xkcdRed}{DO NOT EDIT THIS MAIN FILE. TO ADD YOUR MATERIAL, PLACE IT IN A SEPARATE .TEX FILE, WHICH WILL THEN BE IMPORTED USING AN $\mathtt{\backslash INPUT\lbrace\rbrace}$ STATEMENT.}
-
-\section*{Nomenclature}
-    \lbrack Input required here. \rbrack
-
-\section*{Acronyms/Abbreviations}
-    \input{acronyms_abbreviations}
-    %\lbrack Input required here. \rbrack
+\fboxrule = 1pt
+\fcolorbox{xkcdBlue}{xkcdWhite}{
+    \begin{minipage}[]{.9\linewidth}
+        Guidance to tudat-team authors: \\
+        \textcolor{xkcdRed}{DO NOT EDIT THIS MAIN FILE. TO ADD YOUR MATERIAL, PLACE IT IN A SEPARATE .TEX FILE, WHICH WILL THEN BE IMPORTED USING AN $\mathtt{\backslash INPUT\lbrace\rbrace}$ STATEMENT.}
+    \end{minipage} 
+    }
 
 \section{What is TudatPy?}
     \input{what_is_tudatpy}
     %\lbrack Input required here.\rbrack
 
-\section{What are its key features?}
-    \input{key_features}
+\section{Why use TudatPy?}
+    \input{why_use_tudatpy}
 
-    From the point of view of a user, what can you do with it?
-    The primary user, for the purposes of this paper, is assumed to be:
-    - Someone interested in using TudatPy in a way similar to that of a TU Delft Space instructor, so for education with a strong basis in research.
+\section{Examples of applications}
+    \input{example_applications_intro}
 
-    Features to mention:
-
-    Advantages / USPs to highlight:
-    \begin{itemize}
-        \item Modularity
-        \item Fidelity
-        \item Usability, particularly with the Python interface as well as how this allows the use of the vast range of Python tools now available (eg. Numpy, SciPy, Matplotlib, scikit-learn, ...)
-    \end{itemize}
-
-    To do:
-    \lbrack \rbrack As features are discussed, list published work (or educational settings) in which the various features have been applied.
-
-    \lbrack Input required here.\rbrack
-
-\section{Example applications}
-    \input{input_required}
-
-    \subsection{Analytical analyses}
-    \input{analytical_analyses}
+    \subsection{Analytical state propagation}
+    \input{analytical_state_propagation}
     Proposal: \\
     Two-part presentation: 
     \begin{enumerate}
@@ -88,8 +69,8 @@
     \end{enumerate}
     \lbrack Input required here.\rbrack
 
-    \subsection{State propagation}
-    \input{state_propagation}
+    \subsection{Numerical state propagation}
+    \input{numerical_state_propagation}
 
     \subsection{State estimation}
     \input{state_estimation}
@@ -97,10 +78,16 @@
     \subsection{Trajectory Optimization}
     \input{trajectory_optimization}
     
-    - Without extensively advertizing for PaGMO \lbrack or/PyGMO\rbrack, mention the integration with PaGMO and the key advantages of its integration, such as its open-source nature, successful track-record, ...
+%    - Without extensively advertizing for PaGMO \lbrack or/PyGMO\rbrack, mention the integration with PaGMO and the key advantages of its integration, such as its open-source nature, successful track-record, ...
 
 \section{Get started with Tudat}
     \input{get_started_with_tudat}
+
+\section*{Acronyms/Abbreviations}
+    \input{acronyms_abbreviations}
+
+\section*{Nomenclature}
+    \input{nomenclature}
 
 \section*{Acknowledgements}
 
