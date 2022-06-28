@@ -1,8 +1,4 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% IAC_style.cls, v1.0, 2021-10-01
-% Developed by
-%     Davide Grande (email)
-%     Stefano Farì (Github: extraser)
 %
 % This class file enables authors to prepare papers
 % according to the manuscript style requested by the
@@ -11,6 +7,12 @@
 % Congress (IAC)
 %
 % This file is based on:
+% IAC_style.cls, v1.0, 2021-10-01
+% Developed by
+%     Davide Grande (email)
+%     Stefano Farì (Github: extraser)
+%
+% And originally derived from:
 % iaf-iac.cls, v0.0 developed by Matt Vernacchia
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\NeedsTeXFormat{LaTeX2e}
@@ -58,7 +60,8 @@
 %-----------------------------------------------------
 %% ------------ APPEARANCE ---------------------------
 % Document setup
-\RequirePackage[margin=2.25cm,top=3.35cm,bottom=3.35cm,headheight=\baselineskip]{geometry} % page layout
+%\RequirePackage[margin=2.25cm,top=3.35cm,bottom=3.35cm,headheight=\baselineskip]{geometry} % page layout
+\RequirePackage[margin=2.25cm,top=2.5cm,bottom=3.0cm,headheight=\baselineskip]{geometry} % page layout
 \setlength{\columnsep}{0.8cm} % column spacing
 % Set Times New Roman
 \usepackage[T1]{fontenc}
@@ -71,6 +74,10 @@
 
 % Sections style
 %See end of file.%
+
+%-----------------------------------------------------
+%% ------------ MORE PACKAGES -----------------------------
+\RequirePackage{fancyhdr} % Needs to be loaded after the `gemoetry` package
 
 %-----------------------------------------------------
 %% ------------ IAC CUSTOM PART ----------------------
@@ -120,7 +127,7 @@
   \begin{center}%
     \iac@papernumber\par%
     \vskip1em
-    {\large \textbf{{\@title}} \par}%
+    {\textbf{{\@title}} \par}%
     \vskip 1.5em%
     {\large
       \lineskip .5em%

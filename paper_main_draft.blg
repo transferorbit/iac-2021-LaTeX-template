@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'paper_main_draft.blg'
-[62] biber-darwin:322> INFO - === Tue Jun 28, 2022, 16:11:33
-[73] Biber.pm:415> INFO - Reading 'paper_main_draft.bcf'
-[138] Biber.pm:943> INFO - Found 1 citekeys in bib section 0
-[149] Biber.pm:4256> INFO - Processing section 0
-[150] Utils.pm:75> INFO - Globbing data source 'bib_iac.bib'
-[150] Utils.pm:91> INFO - Globbed data source 'bib_iac.bib' to bib_iac.bib
-[158] Biber.pm:4455> INFO - Looking for bibtex format file 'bib_iac.bib' for section 0
-[159] bibtex.pm:1653> INFO - LaTeX decoding ...
-[165] bibtex.pm:1471> INFO - Found BibTeX data source 'bib_iac.bib'
-[187] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[187] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[187] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[187] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[188] bbl.pm:652> INFO - Writing 'paper_main_draft.bbl' with encoding 'UTF-8'
-[189] bbl.pm:755> INFO - Output to paper_main_draft.bbl
+[71] biber-darwin:322> INFO - === Tue Jun 28, 2022, 18:05:32
+[88] Biber.pm:415> INFO - Reading 'paper_main_draft.bcf'
+[179] Biber.pm:943> INFO - Found 1 citekeys in bib section 0
+[191] Biber.pm:4256> INFO - Processing section 0
+[192] Utils.pm:75> INFO - Globbing data source 'bib_iac.bib'
+[192] Utils.pm:91> INFO - Globbed data source 'bib_iac.bib' to bib_iac.bib
+[200] Biber.pm:4455> INFO - Looking for bibtex format file 'bib_iac.bib' for section 0
+[202] bibtex.pm:1653> INFO - LaTeX decoding ...
+[208] bibtex.pm:1471> INFO - Found BibTeX data source 'bib_iac.bib'
+[233] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[233] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[233] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[233] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[234] bbl.pm:652> INFO - Writing 'paper_main_draft.bbl' with encoding 'UTF-8'
+[236] bbl.pm:755> INFO - Output to paper_main_draft.bbl
