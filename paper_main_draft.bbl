@@ -1,0 +1,61 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{dirkx2019a}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5219398f75faef0751afabdd11483eed}{%
+           family={Dirkx},
+           familyi={D\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ca3cf935d9ac540928a53fda312dcafe}{%
+           family={Mooij},
+           familyi={M\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=82a135d21e1fa35c42b0582648993131}{%
+           family={Root},
+           familyi={R\bibinitperiod},
+           given={B.\bibnamedelimi C.},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{fcf37f0092867e335c813c01a2fda325}
+      \strng{fullhash}{fcf37f0092867e335c813c01a2fda325}
+      \strng{bibnamehash}{fcf37f0092867e335c813c01a2fda325}
+      \strng{authorbibnamehash}{fcf37f0092867e335c813c01a2fda325}
+      \strng{authornamehash}{fcf37f0092867e335c813c01a2fda325}
+      \strng{authorfullhash}{fcf37f0092867e335c813c01a2fda325}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Next-generation planetary tracking methods, such as interplanetary laser ranging (ILR) and same-beam interferometry (SBI) promise an orders-of-magnitude increase in the accuracy of measurements of solar system dynamics. This requires a reconsideration of modelling strategies for the translational and rotational dynamics of natural bodies, to ensure that model errors are well below the measurement uncertainties. The influence of the gravitational interaction of the full mass distributions of celestial bodies, the so-called figure-figure effects, will need to be included for selected future missions. The mathematical formulation of this problem to arbitrary degree is often provided in an elegant and compact manner that is not trivially relatable to the formulation used in space geodesy and ephemeris generation. This complicates the robust implementation of such a model in operational software packages. We formulate the problem in a manner that is directly compatible with the implementation used in typical dynamical modelling codes: in terms of spherical harmonic coefficients and Legendre polynomials. An analytical formulation for the associated variational equations for both translational and rotational motion is derived. We apply our methodology to both Phobos and the KW4 binary asteroid system, to analyze the influence of figure-figure effects during estimation from next-generation tracking data. For the case of Phobos, omitting these effects during estimation results in relative errors of 0.42\% and 0.065\% for the C¯{}{}{}20 and C¯{}{}{}22 spherical harmonic gravity field coefficients, respectively. These values are below current uncertainties, but orders of magnitude larger than those obtained from past simulations for accurate tracking of a future Phobos lander, showing the need to apply the methodology outlined in this manuscript for selected future missions.}
+      \field{journaltitle}{arXiv}
+      \field{title}{Propagation and estimation of the dynamical behaviour of gravitationally interacting rigid bodies}
+      \field{volume}{31}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \keyw{Celestial Mechanics,Orbit Determination,Spherical Harmonics,Spin-orbit Coupling}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

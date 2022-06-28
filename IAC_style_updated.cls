@@ -28,7 +28,7 @@
 \RequirePackage{graphicx}
 %\RequirePackage{array}
 \RequirePackage{booktabs}
-\RequirePackage{cite}
+%\RequirePackage{cite}
 \RequirePackage{lastpage}
 \RequirePackage{fancyhdr}
 \RequirePackage[explicit,compact]{titlesec}
@@ -40,7 +40,18 @@
 \usepackage{color}
 \usepackage{xcolor}
 \usepackage{xkcdcolors}
-\usepackage[colorlinks=true]{hyperref}
+\usepackage[colorlinks=true, pdfstartview=FitV, linkcolor=xkcdBlue, citecolor=xkcdBlue, urlcolor=xkcdBlue]{hyperref}
+
+\usepackage[
+    backend=biber, 
+    sorting=none
+]{biblatex}
+
+%\AtEveryBibitem{
+%    \csappto{blx@bbx@\thefield{entrytype}}{\iffieldundef{note}{}{\par\printfield{note}}}
+%    }
+
+\addbibresource{bib_iac.bib} % imports bibliography file; it's a more versatile command; change to reflect the bib file you're drawing from.
 
 \renewcommand{\headrulewidth}{0pt}
 
